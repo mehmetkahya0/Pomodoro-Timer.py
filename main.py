@@ -11,7 +11,7 @@ import datetime
 
 #Create tkinter window
 root = tk.Tk()
-root.title("Pomodoro Timer")
+root.title("Pomodoro Timer🍅")
 root.geometry("280x200")
 
 #Create today total pomodoro count
