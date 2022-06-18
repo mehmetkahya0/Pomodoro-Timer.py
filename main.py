@@ -1,4 +1,3 @@
-#Create Pomodoro timer with a countdown timer and a stopwatch on the same screen with Tkinter
 # Mehmet Kahya - 18.06.2022 - Python 3.8.2 - Tkinter - Pomodoro Timer  
 
 import tkinter as tk
