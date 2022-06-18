@@ -10,8 +10,10 @@ _Features:_
 
 <!---------------------------------------->
 
+## Beta Version V0.2
+_Features:_
+- You can set pomodoro timer duration 
 
 ### Features to be added in the new version:
 - Breaks
-- You will be change timer duration and breaks duration on the screen
 - end voice
