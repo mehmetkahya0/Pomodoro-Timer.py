@@ -6,6 +6,8 @@ Pomodoro Timer on Tkinter
 ## Beta Version V0.1
 _Features:_
 - 25 minute timer (You can change time on 'pomodoro_length' variable)
+- <img width="271" alt="Ekran Resmi 2022-06-19 00 13 54" src="https://user-images.githubusercontent.com/84154488/174457251-a8641b90-f5c8-464c-986d-0fdcc0bc4654.png">
+
 - You can stop timer, start timer or reset timer
 
 <!---------------------------------------->
