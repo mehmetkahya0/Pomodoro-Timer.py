@@ -8,9 +8,10 @@ from tkinter import filedialog
 import time
 import datetime
 
+
 #Create tkinter window
 root = tk.Tk()
-root.title("Pomodoro Timer🍅")
+root.title("Pomodoro Timer🍅") 
 root.geometry("280x200")
 
 #Create today total pomodoro count
@@ -20,11 +21,18 @@ today_total_pomodoro_count = []
 time_label = tk.Label(root, text="00:00:00", font=("Helvetica", 30))
 time_label.pack()
 
+
+def setTime():
+    global pomodoro_length
+    pomodoro_length = tk.IntVar()
+    pomodoro_length = int(pomodoro_length_entry.get())*60
+    print(pomodoro_length)
+
+
 timer = None
-pomodoro_length = 60 * 25
 stop_length = 60 * 5
 stop_time = None
-
+ 
 def timer():
     global start_time
     global stop_time
@@ -85,6 +93,7 @@ timer_frame.pack(side="top", fill="both", expand=True)
 timer_frame.columnconfigure(0, weight=1)
 timer_frame.rowconfigure(0, weight=1)
 
+
 #Create variables
 current_time = tk.StringVar()
 current_time.set("00:00:00")
@@ -94,6 +103,22 @@ current_time_pomodoro = tk.StringVar()
 current_time_pomodoro.set("00:00:00")
 current_time_pomodoro_stopwatch = tk.StringVar()
 current_time_pomodoro_stopwatch.set("00:00:00")
+
+
+
+
+#Create a label and entry to display the pomodoro length
+pomodoro_length_label = ttk.Label(root, text="Pomodoro Length:")
+pomodoro_length_label.place(x=10, y=50)
+
+pomodoro_length_entry = tk.IntVar()
+pomodoro_length_entry = ttk.Entry(root, width=8)
+pomodoro_length_entry.place(x=120, y=50)
+
+
+pomodoro_length_button = ttk.Button(root, text="Set", command=setTime)
+pomodoro_length_button.place(x=190, y=50)
+
 
 # Create Buttons and Labels
 button_start = ttk.Button(root, text="Start", command=start_timer)
