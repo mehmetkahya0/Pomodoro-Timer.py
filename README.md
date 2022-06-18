@@ -14,6 +14,9 @@ _Features:_
 _Features:_
 - You can set pomodoro timer duration 
 
+<img width="354" alt="Ekran Resmi 2022-06-19 00 03 27" src="https://user-images.githubusercontent.com/84154488/174457205-3c0b4b93-a1c8-47af-8b1b-1f905bc15a6c.png">
+
+
 ### Features to be added in the new version:
 - Breaks
 - end voice
