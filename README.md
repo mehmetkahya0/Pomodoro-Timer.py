@@ -1,6 +1,9 @@
 # Pomodoro Timer (WIP)
 Pomodoro Timer on Tkinter
 
+## Firstly, What's pomodoro
+- https://en.wikipedia.org/wiki/Pomodoro_Technique
+
 <!---------------------------------------->
 
 ## Beta Version V0.1
